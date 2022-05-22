@@ -1,14 +1,20 @@
-# Blacksmith Project's PHP kata starter
+# Blacksmith Project's Fraction kata php
 
-This is a simple php kata starter:
-- Source code lives in `src/`  
-- Test code lives in `tests/`
+This kata is described in the book [Software Craft: TDD, Clean Code et autres pratiques essentielles](https://www.dunod.com/sciences-techniques/software-craft-tdd-clean-code-et-autres-pratiques-essentielles).
 
-## Requirements:
+## Instructions
 
-- docker-compose
+We need to write an application capable of doing the 4 basic mathematical operations:
+- addition
+- subtraction
+- multiplication
+- division
 
-## How to use it:
+The program MUST give the result as an irreducible fraction and might need to be simplified.
 
-- `make composer` to install dependencies
-- `make phpunit` to run your tests
+Examples:
+
+- `4/7 + 2/7 = 6/7`
+- `4/7 - 2/7 = 2/7`
+- `4/7 * 2/7 = 8/49`
+- `4/7 / 2/7 = 2`
